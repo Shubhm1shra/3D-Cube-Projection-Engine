@@ -14,10 +14,13 @@ This engine simulates a 3D wireframe cube that users can interact with in real-t
   - **Dolly**: Smooth zooming using the mouse wheel.
 - **Z-Buffer Depth Testing**: Interactive elements (like hovering over a vertex) prioritize the point closest to the camera.
 
-- ## 📐 Mathematical Concepts Used
+## 📐 Mathematical Concepts Used
 - **Rotation Matrices**: Implementing $R_x$ rotations for the object.
 - **Coordinate Spaces**: Handling transitions between Local Space, World Space, Camera Space, and Screen Space.
 - **Inverse Transformations**: Using inverse matrices to allow screen-based interaction to affect 3D data.
+
+## 🎬 Demo 
+![Demo Video](media/sketch3Dv1-trial-1.mp4)
 
 ## 📥 Installation
 1. Download and install [Processing](https://processing.org/).

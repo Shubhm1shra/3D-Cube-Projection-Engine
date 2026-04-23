@@ -20,7 +20,7 @@ This engine simulates a 3D wireframe cube that users can interact with in real-t
 - **Inverse Transformations**: Using inverse matrices to allow screen-based interaction to affect 3D data.
 
 ## 🎬 Demo 
-![Demo Video](media/sketch3Dv1-trial-1.mp4)
+![Demo Video](media/sketch3Dv1-trial-1.gif)
 
 ## 📥 Installation
 1. Download and install [Processing](https://processing.org/).

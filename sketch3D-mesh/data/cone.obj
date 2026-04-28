@@ -1,0 +1,33 @@
+# cone.obj — low-poly cone, 8-sided, height 1, base radius 0.5
+# Base at Y=-0.5, apex at Y=+0.5
+o Cone
+
+v 0.5 -0.5 0.0
+v 0.353553 -0.5 0.353553
+v 0.0 -0.5 0.5
+v -0.353553 -0.5 0.353553
+v -0.5 -0.5 0.0
+v -0.353553 -0.5 -0.353553
+v -0.0 -0.5 -0.5
+v 0.353553 -0.5 -0.353553
+v 0.0  0.5 0.0   # apex         (index 9)
+v 0.0 -0.5 0.0   # base centre  (index 10)
+
+# Side faces (triangles)
+f 1 2 9
+f 2 3 9
+f 3 4 9
+f 4 5 9
+f 5 6 9
+f 6 7 9
+f 7 8 9
+f 8 1 9
+# Base cap
+f 10 2 1
+f 10 3 2
+f 10 4 3
+f 10 5 4
+f 10 6 5
+f 10 7 6
+f 10 8 7
+f 10 1 8

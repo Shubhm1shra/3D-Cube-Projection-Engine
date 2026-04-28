@@ -35,6 +35,6 @@ Supported face syntaxes (OBJ is 1-indexed; we subtract 1):
 ## 📥 Installation
 1. Download and install [Processing](https://processing.org/).
 2. Clone this repository.
-3. Open `sketch3Dv1/sketch3Dv1.pde` in the Processing IDE and hit **Run**.
-                               OR
+3. Open `sketch3Dv1/sketch3Dv1.pde` in the Processing IDE and hit **Run** <br>
+                                         OR <br>
    Open `sketch3D_mesh/sketch3D_mesh.pde` in the Processing IDE and hit **Run**.

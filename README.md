@@ -5,6 +5,13 @@ A lightweight, from-scratch implementation of a 3D environment in Processing. Th
 ## 🚀 Overview
 This engine simulates a 3D wireframe cube that users can interact with in real-time. It serves as a practical exploration of computer graphics fundamentals, specifically the **Pinhole Camera Model**.
 
+Works on the basis of simulating meshes provided in form of obj files, with the format:
+Supported face syntaxes (OBJ is 1-indexed; we subtract 1):
+- `f v1 v2 v3` ...         (triangle, indices only)
+- `f v1/t1 v2/t2` ...   (with texture coords — t ignored)
+- `f v1/t1/n1` ...      (with normals — t and n ignored)
+- `f v1//n1` ...        (with normals, no UVs — n ignored)
+
 ## ✨ Features
 - **Manual Projection Math**: Calculates 3D points to 2D screen coordinates using focal length and aspect ratio adjustments.
 - **Interactive Vertex Dragging**: Includes logic to "unproject" a 2D mouse drag back into 3D world space at the correct depth.

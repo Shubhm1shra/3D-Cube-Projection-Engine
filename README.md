@@ -31,6 +31,7 @@ Supported face syntaxes (OBJ is 1-indexed; we subtract 1):
 ![Demo Video Sketch3Dv1](media/sketch3Dv1-trial-1.gif)
 ### Sketch3D_mesh Demo: Mesh support in form of obj file.
 ![Demo Video Sketch3D_mesh](media/sketch3Dv2-trial-1.gif)
+Vertices can be removed from being drawn by simply commenting the line with keyword 'rect'.
 
 ## 📥 Installation
 1. Download and install [Processing](https://processing.org/).

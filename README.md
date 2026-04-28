@@ -27,7 +27,10 @@ Supported face syntaxes (OBJ is 1-indexed; we subtract 1):
 - **Inverse Transformations**: Using inverse matrices to allow screen-based interaction to affect 3D data.
 
 ## 🎬 Demo 
-![Demo Video](media/sketch3Dv1-trial-1.gif)
+### Sketch3Dv1 Demo: Hard coded cube support only.
+![Demo Video Sketch3Dv1](media/sketch3Dv1-trial-1.gif)
+### Sketch3D_mesh Demo: Mesh support in form of obj file.
+![Demo Video Sketch3D_mesh](media/sketch3Dv2-trial-1.gif)
 
 ## 📥 Installation
 1. Download and install [Processing](https://processing.org/).

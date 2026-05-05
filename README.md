@@ -1,4 +1,4 @@
-# 3D-Cube-Projection-Engine
+#Projection-Engine
 
 A lightweight, from-scratch implementation of a 3D environment in Processing. This project bypasses built-in 3D libraries (like P3D) to manually handle the mathematics of perspective projection, camera transformations, and vertex manipulation.
 
